@@ -1,0 +1,47 @@
+#slajd{
+  max-width: 40rem;
+  object-fit: contain;
+  margin-bottom: 2%;
+
+  animation: fadeOut 4s infinite;
+  -webkit-animation: fadeOut 4s infinite;
+}
+.slajder-tekst{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.dugme-poruci{
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ac231a;
+  color: white;
+  cursor: pointer;
+}
+.dugme-poruci:hover {
+  opacity: 0.6
+}
+.slajder-grid{
+  display: grid;
+  place-items: center;
+}
+@-webkit-keyframes fadeOut {
+  0% {opacity: 0;}
+  50%{opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 0;}
+  50%{opacity: 1;}
+  100% {opacity: 0;}
+}
+@media screen and (max-width: 750px){
+  #slajd{
+    max-width: 20rem;
+  }
+}

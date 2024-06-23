@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #006838;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#zaglavlje{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sekcija-prijave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border: 2px solid white;
+  width: 300px;
+  background-color: rgb(122, 0, 0);
+}
+.logo{
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+}
+h2{
+  color: white;
+}
+label{
+  display: block;
+  color: white;
+}
+.sekcija-prijave input[type="text"],
+.sekcija-prijave input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.sekcija-prijave button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(-120deg, #ac231a, #006838);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.separator{
+  margin: 10px 0;
+  border-top: 1px solid #ccc;
+}

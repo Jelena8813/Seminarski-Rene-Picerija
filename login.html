@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rene Prijava</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header id="zaglavlje">
+    <a href="/index.html"><img class="logo" src="slike/rene.png" alt="logo.png"></a>
+  </header>
+  <main>
+    <section class="sekcija-prijave">
+      <div>
+        <h2>Login</h2>
+        <form>
+            <label for="username">Ime</label>
+            <input type="text" id="ime" name="ime" required>
+            <label for="password">Lozinka</label>
+            <input type="password" id="lozinka" name="lozinka" required>
+            <button type="submit" onclick="validacijaForme()">Login</button>
+            <div class="separator"></div>
+            <button type="submit" onclick="validacijaForme()">Sign</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
